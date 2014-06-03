@@ -1,27 +1,35 @@
+@import url('normalize.css');
+
 @font-face {
-	font-family: rex;
-	src: url(c:/users/saleh/desktop/taxi/fonts/rex.woff);
-}
-@font-face {
-	font-family: manteka;
-	src: url(c:/users/saleh/desktop/taxi/fonts/manteka.otf);
-}
-@font-face {
-	font-family: valentina;
-	src: url(c:/users/saleh/desktop/taxi/fonts/valentina.otf);
-}
-@font-face {
-	font-family: oxygen;
-	src: url(c:/users/saleh/desktop/taxi/fonts/Oxygen.woff);
+    font-family: 'rex_bold_bold';
+    src: url('fonts/webfontkit/rex_bold-webfont.eot');
+    src: url('fonts/webfontkit/rex_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/webfontkit/rex_bold-webfont.woff') format('woff'),
+         url('fonts/webfontkit/rex_bold-webfont.ttf') format('truetype'),
+         url('fonts/webfontkit/rex_bold-webfont.svg#rex_bold_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
+
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('fonts/webfontkit/oxygen-webfont.eot');
+    src: url('fonts/webfontkit/oxygen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/webfontkit/oxygen-webfont.woff') format('woff'),
+         url('fonts/webfontkit/oxygen-webfont.ttf') format('truetype'),
+         url('fonts/webfontkit/oxygen-webfont.svg#oxygenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
 	margin: 0;
 	padding: 0;
-	/*background: url(file://c:/users/saleh/desktop/taxi/ggbridgefull1680.png) no-repeat ;*/
 	/*background-color: #34495e; #bdc3c7 */
-	background-color: white;
+	background-color: #fff;
 }
 
 
@@ -43,7 +51,7 @@ body {
 }
 #logo h1{
 	font-size: 5em;
-	font-family: rex;
+	font-family: 'rex_bold_bold';
 	
 	padding: 0;
 	margin: auto;
@@ -51,7 +59,7 @@ body {
 	text-align: center;
 }
 #logo h4 {
-	font-family: oxygen;
+	font-family: 'oxygenregular';
 	text-align: center;
 	margin: auto;
 }
@@ -66,16 +74,16 @@ body {
 
 #number {
 	/*border: 1px solid black;*/
-	width: 700px;
+	width: 716px;
 	height: 75px;
 	display: block;
 	margin: 5px auto 5px auto;
 }
 #number h1 {
 	font-size: 4em;
-	font-family: rex;
+	font-family:'rex_bold_bold';
 	text-align: center;
-	margin: auto;
+	margin: 0 auto;
 
 }
 
@@ -112,7 +120,7 @@ body {
 
 #statement p {
 	font-size: 1.6em;
-	font-family: oxygen;
+	font-family: 'oxygenregular';
 	text-align: center;
 	padding: 5px;
 	margin: auto;
@@ -127,7 +135,7 @@ body {
 }
 
 #locations p {
-	font-family: oxygen;
+	font-family: 'oxygenregular';
 	text-align: center;
 	padding: 5px;
 	font-weight:;
@@ -156,7 +164,7 @@ body {
 
 #address h2 {
 	text-align: center;
-	font-family:rex;
+	font-family:'rex_bold_bold';
 	color: #f1c40f;
 }
 
